@@ -1,7 +1,7 @@
 const socket = io('http://localhost:3000')
-const messageContainer = document.querySelector('.msger-chat')
-const messageForm = document.querySelector('.msger-inputarea')
-const messageInput = document.querySelector('.msger-input')
+const messageContainer = document.querySelector('.messenger-chat')
+const messageForm = document.querySelector('.messenger-inputarea')
+const messageInput = document.querySelector('.messenger-input')
 
 const userName = prompt('What is your name?')
 appendMessageRight("You joined", userName)
