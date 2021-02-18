@@ -2,7 +2,7 @@
   "name": "chat-room",
   "version": "1.0.0",
   "description": "chatroom project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "DevStart": "nodemon server.js"
   },
