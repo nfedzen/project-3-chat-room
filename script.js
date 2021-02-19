@@ -52,7 +52,6 @@ function appendMessageLeft(message, username){
 function appendMessageRight(message, username){
   const messageElement = document.createElement('div')
   const currentTime = new Date().toLocaleTimeString()
-  console.log(currentTime)
   messageElement.className = 'msg right-msg'
   messageElement.innerHTML = `<div
   class="msg-img"
